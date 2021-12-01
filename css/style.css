@@ -32,7 +32,7 @@ html, body {
     overflow: hidden;
 }
 
-.parallax :after {
+.parallax::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -42,27 +42,53 @@ html, body {
 }
 
 .parallax__list {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
 
+.parallax__list li {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 
 .parallax__bg {
-
+    position: absolute;
+    width: 110%;
+    height: 110%;
+    top: -5px;
+    left: -5px;
+    background: url('../images/background.jpg') 50% 100% / cover no-repeat;
 }
 
 .parallax__rope {
+    position: absolute;
+    width: 120%;
+    left: -10px;
+}
 
+.parallax__rope img {
+    width: 100%;
 }
 
 .parallax__rope_1 {
-
+    top: 5%;
+    transform: scale(1);
 }
 
 .parallax__rope_2 {
-    
+    top: -1.66667%;
+    transform: scale(1.05556);
 }
 
 .parallax__rope_3 {
-    
+    top: -11.66667%;
+    transform: scale(1.13889);
 }
 
 .parallax__element {
