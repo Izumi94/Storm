@@ -8,7 +8,7 @@
 html, body {
     height: 100%;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    /* background: #000; */
+    background: #000;
 }
 
 .wrapper {
@@ -32,7 +32,7 @@ html, body {
     overflow: hidden;
 }
 
-.parallax::after {
+.parallax:after {
     content: '';
     position: absolute;
     bottom: 0;
