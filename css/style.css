@@ -169,11 +169,17 @@ html, body {
 }
 
 .parallax__wave {
-
+    position: absolute;
+    background: url('../images/waves/wave-plain.png') 0 0 / auto 101% repeat-x;
+    left: 100%;
+    width: 100%;
 }
 
 .parallax__wave_1 {
-    
+    bottom: 180px;
+    height: 86px;
+    animation: wave 7.11111s 0.1s infinite linear;
+    background: url('../images/waves/wave-paint.png') 0 0 / auto 101% repeat-x;
 }
 
 .parallax__wave_2 {
