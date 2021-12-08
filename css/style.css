@@ -183,23 +183,35 @@ html, body {
 }
 
 .parallax__wave_2 {
-    
+    bottom: 144px;
+    height: 115px;
+    animation: wave 6.66667s 0.1s infinite linear;
 }
 
 .parallax__wave_3 {
-    
+    bottom: 108px;
+    height: 144px;
+    animation: wave 6.22222s 0.1s infinite linear;
+    background: url('../images/waves/wave-paint.png') 0 0 / auto 101% repeat-x;
 }
 
 .parallax__wave_4 {
-    
+    bottom: 72px;
+    height: 173px;
+    animation: wave 5.77778s 0.1s infinite linear;
 }
 
 .parallax__wave_5 {
-    
+    bottom: -5px;
+    height: 230px;
+    animation: wave 4.8888s 0.1s infinite linear;
 }
 
 .parallax__wave_6 {
-    
+    bottom: -72px;
+    height: 288px;
+    animation: wave 4,5s 0.1s infinite linear;
+    background: url('../images/waves/wave-paint.png') 0 0 / auto 101% repeat-x;
 }
 
 .parallax__lighthouse {
